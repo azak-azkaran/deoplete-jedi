@@ -8,7 +8,6 @@ from deoplete.util import bytepos2charpos, getlines, load_external_module
 from .base import Base
 
 # Insert Parso and Jedi from our submodules.
-load_external_module(__file__, 'vendored/jedi')
 load_external_module(__file__, 'vendored/parso')
 load_external_module(__file__, 'sources')
 
