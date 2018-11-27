@@ -1,13 +1,8 @@
 # deoplete-jedi
-
+FORK from https://github.com/zchee/deoplete-jedi
+This does not come with jedi but instead uses system jedi
 
 [deoplete.nvim](https://github.com/Shougo/deoplete.nvim) source for [jedi](https://github.com/davidhalter/jedi).
-
-|| **Status** |
-|:---:|:---:|
-| **Travis CI** |[![Build Status](https://travis-ci.org/zchee/deoplete-jedi.svg?branch=master)](https://travis-ci.org/zchee/deoplete-jedi)|
-| **Gitter** |[![Join the chat at https://gitter.im/zchee/deoplete-jedi](https://badges.gitter.im/zchee/deoplete-jedi.svg)](https://gitter.im/zchee/deoplete-jedi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)|
-
 
 ## Required
 
@@ -25,9 +20,9 @@
 ## Install
 
 ```vim
-NeoBundle 'zchee/deoplete-jedi'
+NeoBundle 'azak-azkaran/deoplete-jedi'
 # or
-Plug 'zchee/deoplete-jedi'
+Plug 'azak-azkaran/deoplete-jedi'
 ```
 
 **Note:** If you don't want to use a plugin manager, you will need to clone
